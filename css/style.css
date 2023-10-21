@@ -6,14 +6,15 @@
     font-family:"Whitney", 'Cabin', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* DEBUG */
-.dashed{
-    border: 1px dashed black;
-}
 
-.dashed-white{
+/* DEBUG */
+/* .dashed{
+    border: 1px dashed black;
+} */
+
+/* .dashed-white{
     border: 1px dashed white;
-}
+} */
 
 /* DEBUG COLORS START */
 /* .bg-blue{
@@ -28,17 +29,17 @@
     background-color: #228b22;
 } */
 
-.bg-darkpink{
+/* .bg-darkpink{
     background-color: #f08080;
-}
+} */
 
-.bg-darkverdeacqua{
+/* .bg-darkverdeacqua{
     background-color: #20b2aa;
-}
+} */
 
-.bg-verdeacqua{
+/* .bg-verdeacqua{
     background-color: #7fffd4;
-}
+} */
 /* DEBUG COLORS FINISH */
 
 /* GENERAL MACRO STYLE */
@@ -282,25 +283,41 @@ main div .general-flex{
 .social{
     flex-basis: 40%;
     /* DEBUG */
-    min-height: 550px;
-}
+    min-height: 300px;}
 
 /* ASIDE LIST-1 */
 .list{
     flex-basis: 15%;
     /* DEBUG */
-    min-height: 550px;
+    min-height: 300px;
 }
-/* ASIDE LIST-2 */
-
-/* ASIDE LIST-3 */
-
-/* ASIDE LIST-4 */
 
 /* FOOTER */
-footer{
-    border-top: solid 1px white;
+#aside-section{
+    border-bottom: solid 1px #8ea1e1;
     padding-top: 30px;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+li{
+    color: white;
+}
+
+
+
+.social > h2, h3{
+    color: #8ea1e1;
+    padding-left: 5px;
 }
 
 #footer-section{
